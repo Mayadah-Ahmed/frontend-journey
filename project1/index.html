@@ -1,1 +1,39 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="icon" href="call.png" type ="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+         <h1>Contact Us</h1>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name.." required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type ="email" id="email" name="email" placeholder="Enter your email.." required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows ="4" cols ="50" placeholder="Enter your message.."></textarea> <br><br>
+    <select>
+        <option value ="option1">General</option>
+        <option value ="option2">Sales</option>
+        <option value ="option3">Support</option>
+        <option value ="option4">Feedback</option>
+    </select><br><br>
+    <fieldset>
+        <legend>Preferred Contact Method:</legend>
+        <label>
+            <input type="radio" id="emailcontact" name="contact_method" value="email" checked> Email
+        </label>
+        <label>
+            <input type="radio" id ="phonecontact" name="contact_method" value="phone">Phone
+        </label>
+    </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
