@@ -3,7 +3,8 @@
 This repository contains my practice projects while learning HTML & CSS & JavaScript.
 
 ## Projects
-- coming soon...
+- Project1 (Contact Us page)
+- project2 (coming soon..)
 
 ## Tools Used
 - HTML
